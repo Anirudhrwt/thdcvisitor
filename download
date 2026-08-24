@@ -1,0 +1,21 @@
+# Real settings file - contains your actual passwords and API keys.
+# Never commit this. Copy config_template.py to config.py locally instead.
+config.py
+
+# SQLite database - contains real visitor and admin data, not code.
+thdc_visitor.db
+
+# Python cache/build files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment folders (if you use one)
+venv/
+env/
+.venv/
+
+# Editor/OS clutter
+.vscode/
+.idea/
+.DS_Store
